@@ -3,4 +3,4 @@ from is_even import is_even
 from generate_fibonacci import generate_fibonacci
 from generate_even_fibonacci import generate_even_fibonacci
 from is_prime import is_prime
-from generate_prime import generate_primes
+from generate_prime import generate_prime
