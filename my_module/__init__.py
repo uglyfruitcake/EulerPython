@@ -8,3 +8,4 @@ from is_palindrome import is_palindrome
 from is_multiple_of_a_to_b import is_multiple_of_a_to_b
 from sum_of_squares import sum_of_squares
 from square_of_sum import square_of_sum
+from nth_prime import nth_prime
