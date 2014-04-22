@@ -11,3 +11,5 @@ from square_of_sum import square_of_sum
 from nth_prime import nth_prime
 from largest_product_of_consecutive_integers_in_array import largest_product_of_consecutive_integers_in_array
 from generate_triangular_numbers import generate_triangular_numbers
+from num_factors import num_factors
+from is_factor import is_factor
