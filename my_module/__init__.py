@@ -13,3 +13,4 @@ from largest_product_of_consecutive_integers_in_array import largest_product_of_
 from generate_triangular_numbers import generate_triangular_numbers
 from num_factors import num_factors
 from is_factor import is_factor
+from collatz_sequence_length import collatz_sequence_length
