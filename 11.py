@@ -63,12 +63,12 @@ for x in xrange(3, 20):
         diagonal3.append(grid[x - (x - y)][19 + y - x])
         diagonal4.append(grid[19 + y - x][x - (x - y)])
 products.append(my_module.largest_product_of_consecutive_integers_in_array
-                       (diagonal, 4))
+               (diagonal, 4))
 products.append(my_module.largest_product_of_consecutive_integers_in_array
-                       (diagonal2, 4))
+               (diagonal2, 4))
 products.append(my_module.largest_product_of_consecutive_integers_in_array
-                       (diagonal3, 4))
+               (diagonal3, 4))
 products.append(my_module.largest_product_of_consecutive_integers_in_array
-                       (diagonal4, 4))
+               (diagonal4, 4))
 
 print max(products)
