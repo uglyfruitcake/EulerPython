@@ -2,8 +2,8 @@ size = 21
 row1 = [1] * size
 row2 = [0] * size
 row2[0] = 1
-grid = [row1, row2, row2, row2, row2, row2, row2, row2, row2, row2, row2,
-        row2, row2, row2, row2, row2, row2, row2, row2, row2, row2]
+grid = [row2] * size
+grid[0] = row1
 
 for x in xrange(1, size):
     for y in xrange(1, size):
