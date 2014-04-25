@@ -14,3 +14,4 @@ from generate_triangular_numbers import generate_triangular_numbers
 from num_factors import num_factors
 from is_factor import is_factor
 from collatz_sequence_length import collatz_sequence_length
+from array_of_digits import array_of_digits
