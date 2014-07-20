@@ -18,3 +18,4 @@ from array_of_digits import array_of_digits
 from is_pythagorean_triple import is_pythagorean_triple
 from number_of_ways_across_square import number_of_ways_across_square
 from largest_sum_route_in_triangle import largest_sum_route_in_triangle
+from sum_of_factorial_digits import sum_of_factorial_digits
