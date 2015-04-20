@@ -36,3 +36,8 @@ class test_generate_triangular_numbers(unittest.TestCase):
         self.assertEqual(my_module.generate_triangular_numbers(0), [])
         self.assertEqual(my_module.generate_triangular_numbers(2), [1, 3])
         self.assertEqual(my_module.generate_triangular_numbers(11), [1, 3, 6, 10, 15])
+
+
+class test_get_proper_devisors(unittest.TestCase):
+    def test_get_proper_devisors(self):
+        self.assertEqual(my_module.get_proper_divisors(220), [1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110])
