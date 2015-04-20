@@ -1,7 +1,6 @@
 months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 days = 0
 suns = 0
-asds = []
 for y in xrange(1901, 2001):
     if y % 4 == 0:
         months[1] = 29
