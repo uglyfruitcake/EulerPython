@@ -1,5 +1,3 @@
-from is_multiple_of_x import is_multiple_of_x
-from is_even import is_even
 from generate_fibonacci import generate_fibonacci
 from generate_even_fibonacci import generate_even_fibonacci
 from is_prime import is_prime
@@ -22,4 +20,3 @@ from sum_of_factorial_digits import sum_of_factorial_digits
 from get_proper_divisors import get_proper_divisors
 from is_in_array import is_in_array
 from is_amicable_number import is_amicable_number
-from problem_not_completed import problem_not_completed
