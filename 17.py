@@ -1,3 +1,5 @@
+import my_module
+
 units = ["", "one", "two", "three", "four", "five", "six",
          "seven", "eight", "nine", "ten", "eleven", "twelve",
          "thirteen", "fourteen", "fifteen", "sixteen", "seventeen",
@@ -10,15 +12,11 @@ for i in xrange(1, 1001):
     if i < 20:
         total_length += len(units[i])
     elif i < 100:
-        digits = []
-        for digit in str(i):
-            digits.append(int(digit))
+        digits = my_module.array_of_digits(i)
         total_length += len(tens[digits[0]-2])
         total_length += len(units[digits[1]])
     else:
-        digits = []
-        for digit in str(i):
-            digits.append(int(digit))
+        digits = my_module.array_of_digits(i)
         if i == 1000:
             total_length += 11
         elif i % 100 == 0:
