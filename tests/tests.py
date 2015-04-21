@@ -101,4 +101,32 @@ class test_largest_sum_route_in_triangle(unittest.TestCase):
         self.assertEqual(my_module.largest_sum_route_in_triangle([[6], [5, 4], [2, 3, 5]]), 15)
 
 
-        
+class test_nth_prime(unittest.TestCase):
+    def test_nth_prime(self):
+        self.assertEqual(my_module.nth_prime(7), 17)
+
+
+class test_num_factors(unittest.TestCase):
+    def test_num_factors(self):
+        self.assertEqual(my_module.num_factors(1), 1)
+        self.assertEqual(my_module.num_factors(64), 7)
+
+
+class test_number_of_ways_across_square(unittest.TestCase):
+    def test_number_of_ways_across_square(self):
+        self.assertEqual(my_module.number_of_ways_across_square(3), 6)
+
+
+class test_square_of_sum(unittest.TestCase):
+    def test_square_of_sum(self):
+        self.assertEqual(my_module.square_of_sum(1, 3), 36)
+
+
+class test_sum_of_factorial_digits(unittest.TestCase):
+    def test_sum_of_factorial_digits(self):
+        self.assertEqual(my_module.sum_of_factorial_digits(6), 9)
+
+
+class test_sum_of_squares(unittest.TestCase):
+    def test_sum_of_squares(self):
+        self.assertEqual(my_module.sum_of_squares(1, 3), 14)
