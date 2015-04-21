@@ -41,3 +41,64 @@ class test_generate_triangular_numbers(unittest.TestCase):
 class test_get_proper_devisors(unittest.TestCase):
     def test_get_proper_devisors(self):
         self.assertEqual(my_module.get_proper_divisors(220), [1, 2, 4, 5, 10, 11, 20, 22, 44, 55, 110])
+        self.assertEqual(my_module.get_proper_divisors(2), [1])
+
+
+class test_is_amicable_number(unittest.TestCase):
+    def test_is_amicable_number(self):
+        self.assertTrue(my_module.is_amicable_number(220))
+        self.assertFalse(my_module.is_amicable_number(1))
+
+
+class test_is_factor(unittest.TestCase):
+    def test_is_factor(self):
+        self.assertTrue(my_module.is_factor(2, 4))
+        self.assertFalse(my_module.is_factor(5, 7))
+        self.assertTrue(my_module.is_factor(193, 193))
+
+
+class test_is_in_array(unittest.TestCase):
+    def test_is_in_array(self):
+        self.assertTrue(my_module.is_in_array(2, ["n", 2]))
+        self.assertFalse(my_module.is_in_array(6, ["n", "6"]))
+
+
+class test_is_multiple_of_a_to_b(unittest.TestCase):
+    def test_is_multiple_of_a_to_b(self):
+        self.assertTrue(my_module.is_multiple_of_a_to_b(2520, 1, 10))
+        self.assertFalse(my_module.is_multiple_of_a_to_b(10, 1, 4))
+
+
+class test_is_palindrome(unittest.TestCase):
+    def test_is_palindrome(self):
+        self.assertTrue(my_module.is_palindrome(5))
+        self.assertTrue(my_module.is_palindrome(57975))
+        self.assertTrue(my_module.is_palindrome(5445))
+        self.assertFalse(my_module.is_palindrome(57585))
+
+
+class test_is_prime(unittest.TestCase):
+    def test_is_prime(self):
+        self.assertFalse(my_module.is_prime(1))
+        self.assertTrue(my_module.is_prime(2))
+        self.assertTrue(my_module.is_prime(193))
+        self.assertFalse(my_module.is_prime(49))
+
+
+class test_is_pythagorean_triple(unittest.TestCase):
+    def test_is_pythagorean_triple(self):
+        self.assertTrue(my_module.is_pythagorean_triple(3, 4, 5))
+        self.assertFalse(my_module.is_pythagorean_triple(1, 1, 2))
+
+
+class test_largest_product_of_consecutive_integers_in_array(unittest.TestCase):
+    def test_largest_product_of_consecutive_integers_in_array(self):
+        self.assertEqual(my_module.largest_product_of_consecutive_integers_in_array([1, 2, 3, 4, 5, 6], 3), 120)
+
+
+class test_largest_sum_route_in_triangle(unittest.TestCase):
+    def test_largest_sum_route_in_triangle(self):
+        self.assertEqual(my_module.largest_sum_route_in_triangle([[6], [5, 4], [2, 3, 5]]), 15)
+
+
+        
