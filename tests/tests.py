@@ -130,3 +130,8 @@ class test_sum_of_factorial_digits(unittest.TestCase):
 class test_sum_of_squares(unittest.TestCase):
     def test_sum_of_squares(self):
         self.assertEqual(my_module.sum_of_squares(1, 3), 14)
+
+
+class test_generate_abundant_number(unittest.TestCase):
+    def test_generate_abundant_number(self):
+        self.assertEqual(my_module.generate_abundant_number(30), [12, 18, 20, 24, 30])
