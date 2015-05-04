@@ -21,3 +21,4 @@ from get_proper_divisors import get_proper_divisors
 from is_in_array import is_in_array
 from is_amicable_number import is_amicable_number
 from generate_abundant_number import generate_abundant_number
+from nth_lexicographic_permutation import nth_lexicographic_permutation

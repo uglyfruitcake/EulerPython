@@ -135,3 +135,8 @@ class test_sum_of_squares(unittest.TestCase):
 class test_generate_abundant_number(unittest.TestCase):
     def test_generate_abundant_number(self):
         self.assertEqual(my_module.generate_abundant_number(30), [12, 18, 20, 24, 30])
+
+
+class test_nth_lexicographic_permutation(unittest.TestCase):
+    def test_nth_lexicographic_permutation(self):
+        self.assertEqual(my_module.nth_lexicographic_permutation(100), 123495786)
