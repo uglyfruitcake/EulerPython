@@ -6,4 +6,4 @@ def nth_lexicographic_permutation(n):
     for i in x:
         counter += 1
         if counter == n:
-            print i
+            return(i)

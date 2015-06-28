@@ -139,4 +139,5 @@ class test_generate_abundant_number(unittest.TestCase):
 
 class test_nth_lexicographic_permutation(unittest.TestCase):
     def test_nth_lexicographic_permutation(self):
-        self.assertEqual(my_module.nth_lexicographic_permutation(100), 123495786)
+        self.assertEqual(my_module.nth_lexicographic_permutation(1), ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"))
+        self.assertEqual(my_module.nth_lexicographic_permutation(100), ("0", "1", "2", "3", "4", "9", "5", "7", "8", "6"))
