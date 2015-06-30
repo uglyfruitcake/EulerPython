@@ -22,3 +22,4 @@ from is_in_array import is_in_array
 from is_amicable_number import is_amicable_number
 from generate_abundant_number import generate_abundant_number
 from nth_lexicographic_permutation import nth_lexicographic_permutation
+from cycle_length import cycle_length
