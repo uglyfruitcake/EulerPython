@@ -151,3 +151,7 @@ class test_cycle_length(unittest.TestCase):
 class test_consecutive_primes_from_quadratic(unittest.TestCase):
     def test_consecutive_primes_from_quadratic(self):
         self.assertEqual(my_module.consecutive_primes_from_quadratic(1, 41), 40)
+
+class test_sum_of_diagonals_in_square(unittest.TestCase):
+    def test_sum_of_diagonals_in_square(self):
+        self.assertEqual(my_module.sum_of_diagonals_in_square(5), 101)

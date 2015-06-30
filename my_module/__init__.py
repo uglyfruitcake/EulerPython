@@ -24,3 +24,4 @@ from generate_abundant_number import generate_abundant_number
 from nth_lexicographic_permutation import nth_lexicographic_permutation
 from cycle_length import cycle_length
 from consecutive_primes_from_quadratic import consecutive_primes_from_quadratic
+from sum_of_diagonals_in_square import sum_of_diagonals_in_square
