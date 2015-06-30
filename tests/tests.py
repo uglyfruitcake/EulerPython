@@ -147,3 +147,7 @@ class test_cycle_length(unittest.TestCase):
         self.assertEqual(my_module.cycle_length(7), 6)
         self.assertEqual(my_module.cycle_length(17), 16)
         self.assertEqual(my_module.cycle_length(8), 0)
+
+class test_consecutive_primes_from_quadratic(unittest.TestCase):
+    def test_consecutive_primes_from_quadratic(self):
+        self.assertEqual(my_module.consecutive_primes_from_quadratic(1, 41), 40)
