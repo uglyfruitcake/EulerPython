@@ -1,7 +1,7 @@
 import my_module
 
-answer = 0
 
+answer = 0
 while answer == 0:
     for a in xrange(1, 1000):
         for b in xrange(1, 1000):

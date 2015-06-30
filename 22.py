@@ -1,6 +1,7 @@
 import urllib2
 import string
 
+
 totalscore = 0
 alphabet = string.ascii_uppercase
 file = urllib2.urlopen(

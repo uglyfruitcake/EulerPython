@@ -1,5 +1,6 @@
 import my_module
 
+
 palindromes = []
 
 for a in range(100, 1000):

@@ -1,4 +1,6 @@
 import my_module
+
+
 answer = 0
 for i in xrange(10, 1000000):
     total = 0

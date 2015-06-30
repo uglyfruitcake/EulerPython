@@ -1,5 +1,6 @@
 import my_module
 
+
 maxprimes = 0
 product = 0
 for a in xrange(-1000, 1001):

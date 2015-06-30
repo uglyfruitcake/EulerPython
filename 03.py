@@ -1,5 +1,6 @@
 import my_module
 
+
 number = 600851475143
 primes = my_module.generate_prime(10000)
 prime_factors = []

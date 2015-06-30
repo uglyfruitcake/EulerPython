@@ -1,5 +1,6 @@
 import my_module
 
+
 sum_of_primes = 0
 
 for i in my_module.generate_prime(2000000):
