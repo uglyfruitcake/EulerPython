@@ -155,3 +155,8 @@ class test_consecutive_primes_from_quadratic(unittest.TestCase):
 class test_sum_of_diagonals_in_square(unittest.TestCase):
     def test_sum_of_diagonals_in_square(self):
         self.assertEqual(my_module.sum_of_diagonals_in_square(5), 101)
+
+class test_is_pandigital_pair(unittest.TestCase):
+    def test_is_pandigital_pair(self):
+        self.assertTrue(my_module.is_pandigital_pair(39, 186))
+        self.assertFalse(my_module.is_pandigital_pair(1, 9671))
