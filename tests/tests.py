@@ -142,19 +142,23 @@ class test_nth_lexicographic_permutation(unittest.TestCase):
         self.assertEqual(my_module.nth_lexicographic_permutation(1), ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"))
         self.assertEqual(my_module.nth_lexicographic_permutation(100), ("0", "1", "2", "3", "4", "9", "5", "7", "8", "6"))
 
+
 class test_cycle_length(unittest.TestCase):
     def test_cycle_length(self):
         self.assertEqual(my_module.cycle_length(7), 6)
         self.assertEqual(my_module.cycle_length(17), 16)
         self.assertEqual(my_module.cycle_length(8), 0)
 
+
 class test_consecutive_primes_from_quadratic(unittest.TestCase):
     def test_consecutive_primes_from_quadratic(self):
         self.assertEqual(my_module.consecutive_primes_from_quadratic(1, 41), 40)
 
+
 class test_sum_of_diagonals_in_square(unittest.TestCase):
     def test_sum_of_diagonals_in_square(self):
         self.assertEqual(my_module.sum_of_diagonals_in_square(5), 101)
+
 
 class test_is_pandigital_pair(unittest.TestCase):
     def test_is_pandigital_pair(self):
