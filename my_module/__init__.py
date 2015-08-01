@@ -26,3 +26,6 @@ from cycle_length import cycle_length
 from consecutive_primes_from_quadratic import consecutive_primes_from_quadratic
 from sum_of_diagonals_in_square import sum_of_diagonals_in_square
 from is_pandigital_pair import is_pandigital_pair
+from get_rotations import get_rotations
+from is_circular_prime import is_circular_prime
+from is_list_prime import is_list_prime
