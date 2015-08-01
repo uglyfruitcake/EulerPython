@@ -29,3 +29,4 @@ from is_pandigital_pair import is_pandigital_pair
 from get_rotations import get_rotations
 from is_circular_prime import is_circular_prime
 from is_list_prime import is_list_prime
+from is_truncatable_prime import is_truncatable_prime

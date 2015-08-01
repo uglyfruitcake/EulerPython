@@ -181,3 +181,9 @@ class test_is_list_prime(unittest.TestCase):
 class test_get_rotations(unittest.TestCase):
     def test_get_rotations(self):
         self.assertEqual(my_module.get_rotations(197), [197, 971, 719])
+
+
+class test_is_truncatable_prime(unittest.TestCase):
+    def test_is_truncatable_prime(self):
+        self.assertTrue(my_module.is_truncatable_prime(3797))
+        self.assertFalse(my_module.is_truncatable_prime(29))
