@@ -164,3 +164,20 @@ class test_is_pandigital_pair(unittest.TestCase):
     def test_is_pandigital_pair(self):
         self.assertTrue(my_module.is_pandigital_pair(39, 186))
         self.assertFalse(my_module.is_pandigital_pair(1, 9671))
+
+
+class test_is_circular_prime(unittest.TestCase):
+    def test_is_circular_prime(self):
+        self.assertTrue(my_module.is_circular_prime(197))
+        self.assertFalse(my_module.is_circular_prime(53))
+
+
+class test_is_list_prime(unittest.TestCase):
+    def test_is_list_prime(self):
+        self.assertTrue(my_module.is_list_prime([2, 5, 197]))
+        self.assertFalse(my_module.is_list_prime([2, 5, 9]))
+
+
+class test_get_rotations(unittest.TestCase):
+    def test_get_rotations(self):
+        self.assertEqual(my_module.get_rotations(197), [197, 971, 719])
