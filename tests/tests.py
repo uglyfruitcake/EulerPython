@@ -187,3 +187,8 @@ class test_is_truncatable_prime(unittest.TestCase):
     def test_is_truncatable_prime(self):
         self.assertTrue(my_module.is_truncatable_prime(3797))
         self.assertFalse(my_module.is_truncatable_prime(29))
+
+
+class test_is_pandigital_number(unittest.TestCase):
+    def test_is_pandigital_number(self):
+        self.assertTrue(my_module.is_pandigital_number(123456789))
