@@ -9,3 +9,4 @@ def is_pandigital_pair(a, b):
         if 0 not in digits:
             if len(list(set(digits))) == 9:
                 return(True)
+    return(False)
