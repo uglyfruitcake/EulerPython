@@ -192,3 +192,14 @@ class test_is_truncatable_prime(unittest.TestCase):
 class test_is_pandigital_number(unittest.TestCase):
     def test_is_pandigital_number(self):
         self.assertTrue(my_module.is_pandigital_number(123456789))
+
+
+class test_is_pentagonal_number(unittest.TestCase):
+    def test_is_pentagonal_number(self):
+        self.assertTrue(my_module.is_pentagonal_number(145))
+        self.assertFalse(my_module.is_pentagonal_number(467))
+
+
+class test_nth_pentagonal_number(unittest.TestCase):
+    def test_nth_pentagonal_number(self):
+        self.assertEqual(my_module.nth_pentagonal_number(3), 12)
