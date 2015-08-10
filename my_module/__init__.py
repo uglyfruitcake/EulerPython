@@ -33,3 +33,5 @@ from is_truncatable_prime import *
 from is_pandigital_number import *
 from nth_pentagonal_number import *
 from is_pentagonal_number import *
+from is_hexagonal_number import *
+from nth_triangular_number import *

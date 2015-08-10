@@ -203,3 +203,13 @@ class test_is_pentagonal_number(unittest.TestCase):
 class test_nth_pentagonal_number(unittest.TestCase):
     def test_nth_pentagonal_number(self):
         self.assertEqual(my_module.nth_pentagonal_number(3), 12)
+
+
+class test_nth_triangular_number(unittest.TestCase):
+    def test_nth_triangular_number(self):
+        self.assertEqual(my_module.nth_triangular_number(285), 40755)
+
+
+class test_is_hexagonal_number(unittest.TestCase):
+    def test_is_hexagonal_number(self):
+        self.assertTrue(my_module.is_hexagonal_number(40755))
