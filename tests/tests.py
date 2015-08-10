@@ -213,3 +213,8 @@ class test_nth_triangular_number(unittest.TestCase):
 class test_is_hexagonal_number(unittest.TestCase):
     def test_is_hexagonal_number(self):
         self.assertTrue(my_module.is_hexagonal_number(40755))
+
+
+class test_is_goldback_composite(unittest.TestCase):
+    def test_is_goldback_composite(self):
+        self.assertTrue(my_module.is_goldback_composite(493))

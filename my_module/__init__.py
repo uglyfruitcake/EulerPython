@@ -35,3 +35,4 @@ from nth_pentagonal_number import *
 from is_pentagonal_number import *
 from is_hexagonal_number import *
 from nth_triangular_number import *
+from is_goldback_composite import *
