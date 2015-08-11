@@ -3,7 +3,7 @@ import math
 
 
 def is_goldback_composite(i):
-    primes = my_module.generate_prime(i)
+    primes = my_module.generate_prime(2, i)
     squares = []
     for n in range(1, int(math.ceil(math.sqrt(i)))+1):
         squares.append(2 * (n ** 2))

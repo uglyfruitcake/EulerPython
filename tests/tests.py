@@ -29,7 +29,7 @@ class test_generate_fibonacci(unittest.TestCase):
 
 class test_generate_prime(unittest.TestCase):
     def test_generate_prime(self):
-        self.assertEqual(my_module.generate_prime(11), [2, 3, 5, 7])
+        self.assertEqual(my_module.generate_prime(2, 11), [2, 3, 5, 7])
 
 class test_generate_triangular_numbers(unittest.TestCase):
     def test_generate_triangular_numbers(self):
