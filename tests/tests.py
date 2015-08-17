@@ -218,3 +218,8 @@ class test_is_hexagonal_number(unittest.TestCase):
 class test_is_goldback_composite(unittest.TestCase):
     def test_is_goldback_composite(self):
         self.assertTrue(my_module.is_goldback_composite(493))
+
+
+class test_get_distinct_prime_factors(unittest.TestCase):
+    def test_get_distinct_prime_factors(self):
+        self.assertEqual(my_module.get_distinct_prime_factors(12), [2, 3])
