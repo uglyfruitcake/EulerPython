@@ -223,3 +223,13 @@ class test_is_goldback_composite(unittest.TestCase):
 class test_get_distinct_prime_factors(unittest.TestCase):
     def test_get_distinct_prime_factors(self):
         self.assertEqual(my_module.get_distinct_prime_factors(12), [2, 3])
+
+
+class test_factorial(unittest.TestCase):
+    def test_factorial(self):
+        self.assertEqual(my_module.factorial(5), 120)
+
+
+class test_combinatorics(unittest.TestCase):
+    def test_combinatorics(self):
+        self.assertEqual(my_module.combinatorics(5, 3), 10)
